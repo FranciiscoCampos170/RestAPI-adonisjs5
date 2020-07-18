@@ -8,7 +8,7 @@ export default class Dogs extends BaseSchema {
       table.increments('id').primary()
       table.string('name')
       table.string('breed')
-      table.text('description')
+      table.string('description')
       table.timestamps(true)
     })
   }

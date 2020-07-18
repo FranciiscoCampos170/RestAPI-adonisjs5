@@ -24,4 +24,4 @@ Route.get('/', async () => {
   return { hello: 'world' }
 })
 
-Route.get('dogs', 'DogsController.index')
+Route.resource('dogs', 'DogsController')
